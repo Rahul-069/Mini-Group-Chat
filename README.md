@@ -62,6 +62,13 @@ python app.py
 ```
 
 4. Open your browser at http://localhost:5000
+   If running locally, you can optionally use SSL certificates and ssl_context for HTTPS.
 
+## Deployment
+
+The app is deployed on Render.com. 
+https://mini-group-chat.onrender.com
+
+Render handles HTTPS automatically, so no need for local SSL certificates.
 
 
