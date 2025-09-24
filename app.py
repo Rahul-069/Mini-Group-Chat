@@ -2,6 +2,8 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 from flask_socketio import SocketIO, emit
 import bcrypt, json, os
+import eventlet
+import eventlet.wsgi
 
 app = Flask(__name__)
 # use env var for secret key (set in Render dashboard)
@@ -140,3 +142,4 @@ def handle_disconnect():
 if __name__ == "__main__":
     # local dev (optional): insecure, runs Flask dev server
     socketio.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 5000)), debug=True)
+
