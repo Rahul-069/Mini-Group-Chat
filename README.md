@@ -73,3 +73,11 @@ https://mini-group-chat.onrender.com
 Render handles HTTPS automatically, so no need for local SSL certificates.
 
 
+## Project Structure
+
+mini-group-chat/
+│
+├── app.py            # Main Flask app
+├── users.json        # User database
+├── requirements.txt  # Python dependencies
+└── templates/        # HTML pages (login, signup, chat)   
