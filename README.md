@@ -18,15 +18,17 @@ A **real-time group chat application** built with **Flask** and **Flask-SocketIO
 ## Screenshots
 
 **Login Page**  
-![Login](screenshots/login.png)
-<img width="458" height="352" alt="image" src="https://github.com/user-attachments/assets/8f7e7e45-2368-40d3-b53e-20ef152d4372" />
+<img width="1898" height="872" alt="image" src="https://github.com/user-attachments/assets/264151e4-f5b5-40b8-8653-891d2656ffeb" />
+
 
 
 **Sign Up Page**  
-![Signup](screenshots/signup.png)
+<img width="1898" height="869" alt="image" src="https://github.com/user-attachments/assets/05cb025c-6c78-444a-9aab-8abb48cf381c" />
+
 
 **Chat Room**  
-![Chat](screenshots/chat.png)
+<img width="1919" height="867" alt="image" src="https://github.com/user-attachments/assets/61f41d00-073c-4f57-8201-c2aa832e1971" />
+
 
 ---
 
