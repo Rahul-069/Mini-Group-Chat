@@ -52,3 +52,16 @@ cd mini-group-chat
 ```
 
 2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the app:
+```bash
+python app.py
+```
+
+4. Open your browser at http://localhost:5000
+
+
+
