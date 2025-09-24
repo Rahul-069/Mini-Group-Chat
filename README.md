@@ -27,7 +27,8 @@ A **real-time group chat application** built with **Flask** and **Flask-SocketIO
 
 
 **Chat Room**  
-<img width="1919" height="867" alt="image" src="https://github.com/user-attachments/assets/61f41d00-073c-4f57-8201-c2aa832e1971" />
+<img width="1919" height="856" alt="image" src="https://github.com/user-attachments/assets/31860121-a8cc-45ff-b696-bd11b47f6987" />
+
 
 
 ---
