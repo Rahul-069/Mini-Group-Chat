@@ -138,12 +138,5 @@ def handle_disconnect():
             save_users(users)
         emit('system', f'{username} disconnected', broadcast=True)
 
-# # Note: In Render we will use Gunicorn to run the app.
-# if __name__ == "__main__":
-#     # local dev (optional): insecure, runs Flask dev server
-#     socketio.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 5000)), debug=True)
 if __name__ == "__main__":
     socketio.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 5000)), debug=False, allow_unsafe_werkzeug=True)
-
-
-
