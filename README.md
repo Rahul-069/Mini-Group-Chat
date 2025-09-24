@@ -82,3 +82,7 @@ mini-group-chat/
 ├── requirements.txt  # Python dependencies
 └── templates/        # HTML pages (login, signup, chat)   
 ```
+
+## Notes
+
+Ensure users.json exists and is writable by the app.
