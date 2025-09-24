@@ -49,6 +49,6 @@ A **real-time group chat application** built with **Flask** and **Flask-SocketIO
 ```bash
 git clone https://github.com/YOUR_USERNAME/mini-group-chat.git
 cd mini-group-chat
-'''
+```
 
 2. Install dependencies:
