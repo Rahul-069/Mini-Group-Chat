@@ -78,10 +78,14 @@ Render handles HTTPS automatically, so no need for local SSL certificates.
 ```
 mini-group-chat/
 │
-├── app.py            # Main Flask app
-├── users.json        # User database
-├── requirements.txt  # Python dependencies
-└── templates/        # HTML pages (login, signup, chat)   
+├── app.py              # Main Flask app
+├── users.json          # User database
+├── requirements.txt    # Python dependencies
+├── templates/          # HTML templates
+    ├── login.html      # Login page
+    ├── signup.html     # Signup page
+    └── chat.html       # Chat room page
+ 
 ```
 
 ## Notes
