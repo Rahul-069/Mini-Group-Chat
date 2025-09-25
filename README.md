@@ -71,7 +71,7 @@ python app.py
 
 The app is deployed on Render.com. 
 
-https://mini-group-chat.onrender.com
+https://mini-group-chat.onrender.com (This will take some time to load)
 
 Render handles HTTPS automatically, so no need for local SSL certificates.
 
