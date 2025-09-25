@@ -8,11 +8,10 @@ import eventlet.wsgi
 app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY", "dev-secret")
 
-# Use threading mode (works well on Render)
 socketio = SocketIO(app, async_mode="threading")
 
 USERS_FILE = "users.json"
-clients = {}  # sid -> username
+clients = {}  
 
 # ---------------- User DB ----------------
 def load_users():
@@ -139,4 +138,5 @@ def handle_disconnect():
 
 if __name__ == "__main__":
     socketio.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 5000)), debug=False, allow_unsafe_werkzeug=True)
+
 
