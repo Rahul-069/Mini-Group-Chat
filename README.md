@@ -2,7 +2,7 @@
 
 A **real-time group chat application** built with **Flask** and **Flask-SocketIO**, featuring user login/signup, WebSocket messaging, and a modern responsive UI. Deployed on **Render** with HTTPS automatically handled.
 
-Link - https://mini-group-chat.onrender.com
+Link - https://mini-group-chat.onrender.com (This will take some time to load)
 
 ---
 
